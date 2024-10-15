@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+</head>
+<body>
+    <!--Partie 1: Titre de la page Contact-->
+    <div>
+        <h1>Pour toute pré-commande, Contactez-nous !</h1>
+        <p>Envie de déguster nos délicieux plats chez vous ? Remplissez simplement le formulaire ci-dessous pour passer votre commande. Choisissez vos plats préférés, indiquez vos préférences et votre heure de livraison, et laissez-nous nous occuper du reste. Nous vous garantissons une préparation soignée et une livraison rapide, pour que vous puissiez profiter de vos repas comme si vous étiez chez nous. Bon appétit !</p>
+    </div>
+    <br>
+    <a href="./Menu.html">Cliquez ici pour consulter le menu</a>
+    
+    <!-- Partie 2: Ceci est la partie dédiée aux informations personnelles -->
+    <form>
+    <div>
+        <h4><strong>1-Informations Client</strong></ol></h4>
+        
+        <br><label for="name">Nom & Prénom</label><br>
+        <input type="text" placeholder="Tapez votre nom"><br> 
+        
+        <br><label for="number">Numéro de Téléphone</label><br>
+        <input type="tel" placeholder=" Entrez vore contact"><br>
+        
+        <br><label for="email">Adresse E-mail</label><br>
+        <input type="email" placeholder="Entrez votre adresse e-mail"><br>
+    
+        <br><label for="text">Votre Adresse de domicile</label><br>
+        <textarea cols="30" rows="5" placeholder="Tapez votre Adresse complète"></textarea><br>
+    </div>
+    
+    <!-- Partie 3: Ceci est la partie dédiée aux informations de la commande -->
+    
+        <h4><strong>2-Détails de la commande</strong></h4>
+    <!--Entrées-->
+    <div>
+        <ul><li><b>Entrées</b></ul></li>
+
+        <label for="menu">Choisissez votre menu:</label><br>
+        <select id="menu" name="menu" size="4" multiple>
+          <option value="1">Tartare d’avocat et crevettes</option>
+          <option value="2">Crostini au chèvre et miel</option>
+          <option value="3">Salade Caprese</option>
+          <option value="4">Bruschetta</option>
+          <option value="5">Gougères</option>
+        </select>
+    </div>
+    <!--Plats Principale-->
+    <div>
+        <ul><li><b>Plat Principale</b></ul></li>
+        
+        <label for="menu">Choisissez votre menu:</label><br>
+        <select id="menu" name="menu" size="4" multiple>
+          <option value="1">Risotto aux champignons sauvages</option>
+          <option value="2">Tagine d'agneau aux abricots</option>
+          <option value="3">Saumon grillé</option>
+          <option value="4">Poulet au citron</option>
+          <option value="5">Pâtes Primavera</option>
+        </select>
+    </div>
+
+    <!--Desserts-->
+    <div>
+            <ul><li><b>Desserts</b></ul></li>
+            
+            <label for="menu">Choisissez votre menu:</label><br>
+            <select id="menu" name="menu" size="4" multiple>
+              <option value="1">Panna cotta à la vanille et aux fruits rouges</option>
+              <option value="2">Crème brûlée au café</option>
+              <option value="3">Fondue au chocolat</option>
+              <option value="4">Tarte Tatin</option>
+              <option value="5">Mousse au chocolat</option>
+            </select>
+    </div>
+    <br>
+    <!-- Partie 4: Date de livraison commande -->
+    <div>
+        <h4><strong>3-Livraison de la commande</strong></h4>
+    
+        <br><label for="Date">Date de Livraison souhaitée</label><br>
+        <input type="date" placeholder="Entrez votre date de naissance"><br>
+    </div>
+
+    
+    <!--Partie 5 : Ceci est le bouton Submit-->
+    <div>
+        <br>
+        <button type="Submit">Commander</button>
+    </div>
+    </form>
+    <br>
+    <br>
+
+</body>
+
+<footer>
+    &copy; 2024 Copyright by Delicious Bites by Soukaina Chnayti
+</footer>
+
+</html>
